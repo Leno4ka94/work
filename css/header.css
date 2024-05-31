@@ -1,0 +1,35 @@
+.header {
+    position: relative;
+}
+
+.header__grid {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 10px 10px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding-left: 20px;
+}
+
+.nav-link.active {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+video{
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.doc-auto-serv__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.doc-auto-serv__text {
+    max-width: 500px;
+}
+
+.doc-auto-serv__img {
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+}

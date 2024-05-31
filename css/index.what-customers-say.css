@@ -1,0 +1,50 @@
+
+.what-customers-say__grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.what-customers-say__item {
+    position: relative;
+    max-width: 310px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px 40px;
+}
+.person {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.person__details p{
+    padding: 0;
+}
+.name {
+    color: black;
+    font-weight: 500;
+}
+
+.rating::after{
+    content: "";
+    position: absolute;
+    background-image: url(/img/googlel.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 115px;
+    top: 73px;
+}
+
+.checked {
+    color: #ffc700;
+}
+
+.what-customers-say__item a.btn{
+    color: var(--text-color);
+    position: absolute;
+    bottom: 15px;
+}
