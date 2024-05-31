@@ -2,6 +2,7 @@
     background-color: rgb(56, 55, 55);
     padding: 100px 0 30px;
 }
+
 .footer__grid {
     padding-bottom: 40px;
     color: var(--text-color);
@@ -11,18 +12,19 @@
     justify-content: center;
 }
 
-.footer h4{
+.footer h4 {
     color: white;
 }
 
-.footer a{
+.footer a {
     color: var(--text-color);
 }
 
 .contact {
     max-width: 280px;
 }
-.contact__grid img{
+
+.contact__grid img {
     padding-right: 5px;
 }
 
@@ -33,15 +35,18 @@
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.089);
 }
+
 .copyright__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px 0;
     justify-content: space-between;
 }
-.copyright__text a{
+
+.copyright__text a {
     color: var(--text-color);
 }
-.copyright__design p{
+
+.copyright__design p {
     text-align: right;
 }

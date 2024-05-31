@@ -27,7 +27,6 @@
     height: 100px;
 }
 
-.services__item-img img {}
 
 .btn__item {
     position: absolute;
@@ -39,4 +38,3 @@
 a {
     color: var(--main-color);
 }
-

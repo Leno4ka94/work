@@ -4,6 +4,7 @@
     position: relative;
     background-color: rgb(255, 123, 0);
 }
+
 .trust-us__grid {
     display: flex;
     flex-wrap: wrap;
@@ -11,9 +12,11 @@
     width: 80%;
     margin: 0 auto;
 }
+
 .trust-us__text {
     color: white;
 }
-.trust-us__text p{
+
+.trust-us__text p {
     color: white;
 }

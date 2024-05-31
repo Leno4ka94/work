@@ -1,15 +1,9 @@
-.digital-transform-experts {
-}
-
 .digital-transform-experts__grid {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
 }
-.digital-transform-experts__img {
-}
+
 .digital-transform-experts__text {
     max-width: 510px;
-}
-.btn {
 }
